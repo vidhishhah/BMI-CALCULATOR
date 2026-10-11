@@ -134,7 +134,7 @@ calcBMI();
 </html>
 """
 
-@app.route("/bmi",methods=["GET","POST"])
+@app.route("/",methods=["GET","POST"])
 def bmi():
     result=""
     if request.method=="POST":
